@@ -33,7 +33,6 @@ function startTimer() {
 
 		if (seconds <= 0) {
 			if (minutes <= 0) {
-				// Clears the interval i.e. stops the counter
 				clearInterval(minutes);
 				clearInterval(seconds);
 
